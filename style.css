@@ -1,0 +1,89 @@
+* {
+  margin: auto 0 auto 0;
+  padding: 0;
+  background-color: rgb(160, 191, 248);
+}
+
+.form {
+  height: 400px;
+  width: 400px;
+  border: 1px solid;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(160, 191, 248); */
+  border-radius: 10px;
+}
+
+.userContent {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  /* border: 1px solid; */
+  justify-content: space-around;
+}
+
+.degree {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.degree input {
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.seletor {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.seletor select {
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.btn,
+button {
+    cursor: pointer;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: green;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+.resultDiv {
+  width: 80%;
+  /* border: 1px solid; */
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resultDiv input {
+  border: none;
+  height: 60px;
+  border-bottom: 1px solid;
+  color: black;
+  font-weight: bold;
+}
